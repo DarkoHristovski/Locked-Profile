@@ -24,7 +24,7 @@ main {
   min-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 32% 32% 32%;
   grid-template-rows: 1fr;
   grid-gap: 10px;
   align-items: stretch;
@@ -87,4 +87,20 @@ input + label {
 .user1Username p:nth-child(5),
 .user1Username p:nth-child(6) {
   background-color: #d3d3d3;
+}
+
+
+button{
+   border: 1px solid #007bff;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#007bff;
+}
+
+button:hover{
+  border: 1px solid #fff;
+   background-color:  #007bff;
+   color:#fff;
 }
